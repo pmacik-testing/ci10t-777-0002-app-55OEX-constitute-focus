@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-licv
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0002-tenant/ci10t-777-0002-app/devfile-sample-licv@sha256:ce14770de7077cd6a5160a657d81dcae13a72ea200acc543f3e1919002bee1d0
         name: my-nodejs
         ports:
         - containerPort: 3001
